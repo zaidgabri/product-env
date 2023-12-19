@@ -73,7 +73,7 @@ pipeline {
                     sh "git config user.name zaidgabri"
                     sh "git add ."
                     sh "git commit -m 'Update image tag in Kubernetes manifests'"
-                    sh "git push https://${GIT_USERNAME}:${GIT_PASSWORD}@github.com/zaidgabri/GitOps.git  HEAD:main"
+                    sh "git push https://${GIT_USERNAME}:${GIT_PASSWORD}@github.com/zaidgabri/${cloneDir}  HEAD:main"
                 }
             }
                     sh "rm -rf ${cloneDir}"
