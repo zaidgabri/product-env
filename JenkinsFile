@@ -56,7 +56,7 @@ pipeline {
                     }
 
                    
-                    def manifestsDir = "${cloneDir}"
+                    def manifestsDir = "${cloneDir}/K8s"
 
                   
                     
