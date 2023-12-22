@@ -5,7 +5,7 @@ spring:
   datasource:
     url: jdbc:mysql://${DB_HOST:localhost}:3306/kubo
     username: admin
-    password: zaid@11
+    password: zaidGabri@11
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     hibernate:
