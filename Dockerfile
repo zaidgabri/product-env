@@ -1,5 +1,5 @@
 # Use a base image with Java 17
-FROM adoptopenjdk/openjdk17:alpine-jre
+FROM openjdk:17-jre-alpine
 
 # Simply the artifact path
 ARG artifact=target/spring-boot-hello-world-1.0.jar
